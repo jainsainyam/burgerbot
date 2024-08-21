@@ -1,14 +1,27 @@
-# burgerbot
 
-Burger Bot is typically an AI-powered chatbot designed to take orders and answer customer inquiries in the context of a burger restaurant. The bot can be integrated into various platforms, such as websites, mobile apps, or messaging services, to enhance the customer experience by providing a seamless, automated way to place orders, ask about menu items, check on the status of an order, and get information on promotions or store hours.
 
-Key Features:
-Order Placement: Customers can interact with Burger Bot to customize and place orders for burgers, sides, and drinks. The bot might offer options for toppings, cooking preferences, and special requests.
+# 🍔 Burger Bot - An Interactive Chatbot for Burger Orders
 
-Menu Navigation: The bot can guide users through the menu, offering detailed descriptions of items, including ingredients, pricing, and nutritional information.
+Welcome to the Burger Bot project! This chatbot is designed to assist customers in placing their burger orders at Burger Singh Restaurant. It uses Google Generative AI for prompt engineering and Gradio for creating an interactive user interface.
 
-Promotions and Deals: Burger Bot can inform users about ongoing promotions, discounts, or special combos.
+## 🛠️ Project Overview
 
-Order Tracking: After placing an order, users can ask the bot for updates on the preparation status and estimated delivery time.
+In this project, I've developed a chatbot that:
+- Greets customers and takes their burger orders.
+- Asks if the order is for pickup or delivery.
+- Provides menu options, including burgers, fries, toppings, and drinks.
+- Summarizes the order and checks if the customer wants to add anything else.
+- Collects payment details.
 
-Customer Support: The bot can handle common customer inquiries, such as operating hours, store locations, and refund policies. For more complex issues, it may escalate the query to a human representative.
+## 🎨 Architecture Diagram
+
+Below is a visual representation of the architecture:
+
+![Burger Bot Architecture](link_to_architecture_diagram.png)
+
+## 🚀 How to Run the Project
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/burger-bot.git
+   cd burger-bot
